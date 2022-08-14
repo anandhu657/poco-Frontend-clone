@@ -1,0 +1,62 @@
+.header {
+    height: 60px;
+    background-color: #161718;
+    border-top: 2px solid #ffd400;
+}
+
+.flex-header {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 62px;
+}
+
+.logo img {
+    cursor: pointer;
+}
+
+.about {
+    margin-left: 62px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.account-manage {
+    position: absolute;
+    right: 62px;
+}
+
+.second-header {
+    /* background-color: black; */
+    position: absolute;
+    margin-left: 168px;
+    margin-top: 18px;
+}
+
+.second-header ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.second-header li {
+    float: left;
+}
+
+.second-header li a:hover {
+    color: #ffd400;
+}
+
+.second-header li a {
+    padding-right: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
